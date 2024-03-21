@@ -47,7 +47,7 @@ network_g:
   type: CVHSSR
   up_scale: 4
   width: 48
-  num_blks: 24
+  num_blks: 17
   drop_path_rate: 0.1
   train_size: [1, 6, 128, 128]
   drop_out_rate: 0.

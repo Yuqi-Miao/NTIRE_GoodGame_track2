@@ -723,7 +723,7 @@ class DropPath(nn.Module):
 
 class CVHSR(nn.Module):
 
-    def __init__(self, up_scale=4, width=48, num_blks=24, img_channel=3, drop_path_rate=0., drop_out_rate=0.,
+    def __init__(self, up_scale=4, width=48, num_blks=17, img_channel=3, drop_path_rate=0., drop_out_rate=0.,
                  fusion_from=-1, fusion_to=1000, dual=False):
         super().__init__()
         self.dual = dual  # dual input for stereo SR (left view, right view)
